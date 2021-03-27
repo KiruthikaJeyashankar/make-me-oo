@@ -26,3 +26,28 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
+
+
+
+I had tried to minimize the number of elements with just one class Point
+
+```java
+public class Point {
+    public double distance(Point point) {
+        if (this == point)
+            return 0.0;
+
+        Point differenceVector = getDifferenceVector(this , point);
+
+        return sqrt(square(differenceVector.xPosition) + square(differenceVector.yPosition));
+    }
+
+    public double direction(Point point) {
+        Point differenceVector = getDifferenceVector(this , point);
+
+        return atan2(differenceVector.yPosition, differenceVector.xPosition);
+    }
+}
+```
+
+I have further took some steps to minimze duplicate and have also considered implementation details
