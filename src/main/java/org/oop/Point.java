@@ -9,9 +9,9 @@ public class Point {
     private final double yPosition;
 
 
-    public Point(double x, double y) {
-        this.xPosition = x;
-        this.yPosition = y;
+    public Point(double xPosition, double yPosition) {
+        this.xPosition = xPosition;
+        this.yPosition = yPosition;
     }
 
     public double distance(Point point) {
