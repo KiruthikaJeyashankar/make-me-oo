@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.oop.PointTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-24T08:41:15" hostname="KiruthikaJs-MBP" time="0.024">
+  <properties/>
+  <testcase name="twoPointsWithSameXAndYCoordinatesShouldHaveADistanceOfZero()" classname="org.oop.PointTest" time="0.017"/>
+  <testcase name="distanceBetweenOriginAndPointsOnUnitCircleShouldBeOne()" classname="org.oop.PointTest" time="0.0"/>
+  <testcase name="originAndPointOnPostiveXAxisShouldBeZeroRadiansAway()" classname="org.oop.PointTest" time="0.001"/>
+  <testcase name="originAndPointOnNegativeXAxisShouldBePiRadiansAway()" classname="org.oop.PointTest" time="0.0"/>
+  <testcase name="originAndPointOnYAxisShouldBeHalfPiRadiansAway()" classname="org.oop.PointTest" time="0.0"/>
+  <testcase name="distanceBetweenTwoOppositePointsOnUnitCircleShouldBeTwo()" classname="org.oop.PointTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
